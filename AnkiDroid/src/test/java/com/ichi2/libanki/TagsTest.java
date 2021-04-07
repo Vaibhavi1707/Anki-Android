@@ -45,6 +45,7 @@ public class TagsTest extends RobolectricTest {
         tags_list.add("Needs revision");
         tags_list.add("Once more");
         tags_list.add("test1 content");
+        tags_list.add("Done with all");
 
         assertFalse(tags.inList("Done", tags_list));
         assertTrue(tags.inList("Needs revision", tags_list));
